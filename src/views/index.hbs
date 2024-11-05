@@ -1,0 +1,69 @@
+<div class="col-md-6 offset-md-3">
+
+  <div class="card-header">
+    <h1>Seja Um Explorador Sem Fronteiras!</h1>
+  </div>
+  <div class="card-body">
+    {{!-- {{#if contacts}}
+      <ul class="list-group">
+        {{#each contacts}}
+          <li class="list-group-item">
+            {{this.firstname}}
+            {{this.lastname}}/
+            {{this.email}}/
+            {{this.whatsapp}}
+
+          </li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <p>Ainda não há contacts!</p>
+    {{/if}} --}}
+
+  </div>
+  <div class="card-footer">
+    <form action="new-contact" method="post">
+      <div class="form-group">
+        <input
+          type="text"
+          name="firstname"
+          placeholder="Firstname"
+          class="form-control"
+          autofocus
+        />
+      </div>
+
+      <div class="form-group">
+        <input
+          type="text"
+          name="lastname"
+          placeholder="Lastname"
+          class="form-control"
+        />
+      </div>
+
+      <div class="form-group">
+        <input
+          type="text"
+          name="email"
+          placeholder="E-mail"
+          class="form-control"
+        />
+      </div>
+
+      <div class="form-group">
+        <input
+          type="text"
+          name="whatsapp"
+          placeholder="WhatsApp"
+          class="form-control"
+        />
+      </div>
+
+      <button class="btn btn-primary btn-block">
+        Quero ser um explorador!
+      </button>
+    </form>
+  </div>
+
+</div>
